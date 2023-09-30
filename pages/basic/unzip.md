@@ -34,3 +34,5 @@
 
 - [Bandizip，适合国人使用的简单压缩软件](https://www.bandisoft.com/bandizip/)
 - [Win RAR，老牌强大压缩软件](https://www.win-rar.com/start.html?&L=0)
+
+![why you do not want to learn unzip](https://z1.ax1x.com/2023/09/30/pPqRN6J.jpg)
