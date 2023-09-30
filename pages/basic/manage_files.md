@@ -12,7 +12,7 @@
 
 你可以在**资源管理器**上面看到这样的目录：
 
-![path](https://img-blog.csdnimg.cn/20210303173443384.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2NTIxODQ4,size_16,color_FFFFFF,t_70)
+![path](https://z1.ax1x.com/2023/09/30/pPqc2Xn.png)
 
 **目录**就是一串字符，用来指示一个文件、文件夹在何地方。在 Windows 上，它以反斜线`\\`分割每个文件夹。
 例如，a 文件夹下有一个 b 文件夹，下面有一个 word.docx 文件，那么路径可以写成：
@@ -59,9 +59,26 @@
 
 非常推荐读者前往其[官网](https://www.listary.com/)下载体验。安装后，Listary 自带一个快速上手教程。
 
+## 忘东西，是很常见的
+
+如果你忘记了某一个文件，或只记得他是一个包含某关键字的 word 文档，那么**Everything**全盘搜索软件就是你需要的工具。它是一个速度极快的全盘搜索工具，支持正则表达式。
+
+![everything](https://www.voidtools.com/zh-cn/support/everything/Everything.Search.Window.png)
+
+仅需输入文件名即可开始搜索。如果你想搜包含“说明”且以 pdf 结尾的文件，可以使用通配符：`*说明*.pdf`
+
+若使用正则表达式，仅需用`.+` 替换 `*` 即可。上述搜索变为`.+说明.+.pdf`
+
+> 对于懂正则表达式的读者，可能注意到了上述正则结尾的 `.pdf` 其实会额外匹配位于 pdf 前的一个任意字符，不过作为扩展名开始的小数点 `.` 依然会被匹配，故此处可以不把 `.` 转义为 `\.`
+
+软件可以来[这里](https://www.voidtools.com/zh-cn/)下载。
+
+欲学习正则表达式，可看[知乎](https://zhuanlan.zhihu.com/p/107294963)的这篇文章，或前往其对应的[Github仓库](https://github.com/ziishaned/learn-regex)学习。
 
 ## 开始备份
 
+**请永远不要把重要数据只存放一份**。了解 **321 原则**：3 份文件备份，存在 2 种介质上，并做 1 份异地备份。
+
 前面使用一个根目录来存放所有文件的好处在于，备份时，只需要备份这一个文件夹即可。备份可以选择 U 盘、移动硬盘、移动固态硬盘、NAS 等进行。
 
-推荐使用自动化备份工具进行文件同步。例如，使用[Robocopy](https://www.bilibili.com/read/cv19040042)命令行工具，或[Free File Sync](https://freefilesync.org/)工具完成。
+推荐使用自动化备份工具进行文件同步。例如，使用 [Robocopy](https://www.bilibili.com/read/cv19040042) 命令行工具，或 [Free File Sync](https://freefilesync.org/) 工具完成。文件同步与备份是一个很庞大的话题，此处不展开说明。
