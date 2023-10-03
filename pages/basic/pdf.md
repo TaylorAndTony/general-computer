@@ -22,11 +22,9 @@ PDF 的本质是使用**标记语言**描述了文档上面的几何结构，就
 
 <font color="red" style="font-weight:bold;font-size:large">只有傻子才会给 PDF 转 Word 付费</font>
 
-二者互转本来就是**伪需求**，是凭空为了和自己过不去而设计的需求。
+二者互转本来就是**难为人**，我看不起那些只会扔一个 PDF 给打工人然后默认他能像 Word 一样编辑的领导 or 老板。任何有计算机基础的人，对于自己编写的文档，都会自行保存原始格式（Word、LaTeX 等），不会只留一个 pdf 文档。
 
 ![pdf meme](https://images7.memedroid.com/images/UPLOADED109/56c9a5ba97be5.jpeg)
-
-任何有计算机基础的人，对于自己编写的文档，都会自行保存原始格式（Word、LaTeX 等），不会只留一个 pdf 文档。
 
 下面这些才是**格式互转**的神：
 
@@ -45,3 +43,29 @@ PDF 的本质是使用**标记语言**描述了文档上面的几何结构，就
 - [pdf.io](https://pdf.io/)
 - [pdf candy](https://pdfcandy.com/cn/)
 - [clever pdf](https://www.cleverpdf.com/cn)
+
+## 附加：什么是 WPS Office、MS Office 和 Word
+
+### WPS Office
+
+WPS 全称字处理系统，最早由国人**独立**使用汇编语言开发，可运行在上世纪命令行电脑内的软件。是很早的（比微软的 Office 早）中文文字处理系统。目前，WPS 由金山公司运营，**已经完全背离了初心**，加入了低质量（难看）付费模板、恼人的付费格式转换等臃肿付费功能（政府定制、机构定制版除外）。包含 **Word、Excel、PPT** 三大组件。
+
+<font color="red">WPS 能免费用，但带有大量广告和会员功能</font>，但其 Linux 版本却挺好用的。
+
+![wps route](https://pic1.zhimg.com/v2-e4232a95a6b148a31238c6e2ecb159e2_r.jpg?source=1940ef5c)
+
+### MS Office
+
+或称 Microsoft Office，是微软开发的字处理系统，包含 **Word、Excel、PPT、Publisher、Access** 等大量组件。注意其中 **Word、Excel、PPT** 与 WPS Office 是重名的，尽管互相兼容，但却是不同的软件。
+
+Microsoft Office 曾在上个世纪首次推出“所见即所得”编辑技术，对那时的 WPS 造成了降维打击。
+
+<font color="red">Microsoft Office 是付费软件，没有免费版</font>
+
+![ms office prod](https://itechhacks.com/wp-content/uploads/2021/05/Download-MS-Office-2013.jpg)
+
+> 关于这二者的关系，我就抱着我的 [LaTeX](https://www.latex-project.org/) 文档准备系统，看你们争论这俩 Office 到底是谁抄谁。
+
+### Word
+
+相信看完了上面的部分，你已经知道什么是 Word 了。**它是一种文档格式，也是两个重名的软件**，一个来自国内的金山 WPS，一个来自微软的 Office。至于二者选择哪一个，如果你问我的话，**我只推荐 Microsoft Office（微软）**。你可以在网上找到[不用付费购买](https://otp.landian.vip/zh-cn/)的内种版本的 MS Office。

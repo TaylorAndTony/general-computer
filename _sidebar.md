@@ -2,6 +2,7 @@
 * 基础教程
     * [如何解压压缩包](pages/basic/unzip.md)
     * [如何整理电脑上的文件](pages/basic/manage_files.md)
+    * [常见快捷键与操作思路](pages/basic/shortcut.md)
     * [关于 PDF 和 Word 的那些事](pages/basic/pdf.md)
 * 高级教程
 	* [关于休眠与睡眠](pages/advance/sleep.md)
