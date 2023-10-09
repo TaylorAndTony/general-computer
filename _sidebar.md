@@ -13,3 +13,4 @@
 * 算法
     * [Dijkstra](pages/algo/dijkstra.md)
     * [Floyd](pages/algo/floyd.md)
+    * [手动求关键路径](pages/algo/aoe.md)

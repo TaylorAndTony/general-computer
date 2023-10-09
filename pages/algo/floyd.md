@@ -2,7 +2,7 @@
 
 **负值 OK 负值+环路 Blyat！**
 
-<iframe src="//player.bilibili.com/player.html?aid=651590142&bvid=BV1ce4y1P7fT&cid=1000424210&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height: 500px;"></iframe>
+<iframe src="//player.bilibili.com/player.html?aid=651590142&bvid=BV1ce4y1P7fT&cid=1000424210&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height: 500px;"></iframe>
 
 以每个点为「中转站」，刷新所有「入度」和「出度」的距离。
 

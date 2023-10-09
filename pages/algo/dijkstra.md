@@ -4,7 +4,7 @@ Dijkstra 可以用于环路，但不能用于负权值的图。
 
 **环路 OK 负值 Blyat！**
 
-<iframe src="//player.bilibili.com/player.html?aid=586430293&bvid=BV1zz4y1m7Nq&cid=289260026&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height:500px"></iframe>
+<iframe src="//player.bilibili.com/player.html?aid=586430293&bvid=BV1zz4y1m7Nq&cid=289260026&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height:500px"></iframe>
 
 > https://zhuanlan.zhihu.com/p/338414118
 
