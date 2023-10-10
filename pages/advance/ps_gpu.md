@@ -2,17 +2,17 @@
 
 *文章来自知乎多个提问*
 
-就是从22.3.1版本开始，Photoshop引入了新的gpu检测机制，但是22.3.1引入新机制后引发了一个严重的bug：绝大多数显卡都无法被检测(无论是老显卡还是新显卡)。当时adobe社区就炸了，一堆人在发帖询问。
+就是从22.3.1版本开始，Photoshop 引入了新的 gpu 检测机制，但是22.3.1引入新机制后引发了一个严重的 bug：绝大多数显卡都无法被检测(无论是老显卡还是新显卡)。当时 adobe 社区就炸了，一堆人在发帖询问。
 
-直到前阵子Photoshop发布了22.4，官方的说法是22.4修复了这个bug，如果你的电脑依旧无法检测出来显卡，那么你电脑的显卡就是被Photoshop放弃的显卡，意思就是Photoshop不再支持你的显卡了，你的显卡太老了。
+直到前阵子 Photoshop 发布了22.4，官方的说法是22.4修复了这个 bug，如果你的电脑依旧无法检测出来显卡，那么你电脑的显卡就是被 Photoshop 放弃的显卡，意思就是 Photoshop 不再支持你的显卡了，你的显卡太老了。
 
 ## 方案 1：强制开启 GPU
 
-别急，Adobe没有把事做绝，留了一个强制使用旧版gpu的方法，但是由此引发的一系列不稳定性问题，用户自己负责：
+别急，Adobe 没有把事做绝，留了一个强制使用旧版 gpu 的方法，但是由此引发的一系列不稳定性问题，用户自己负责：
 
-Windows: `[系统磁盘]:\Users\[用户名]\AppData\Roaming\Adobe\[Photoshop_版本号]\[Photoshop_版本号]Settings\`
+Windows: `[系统磁盘]:\Users\[用户名]\AppData\Roaming\Adobe\[Photoshop_ 版本号]\[Photoshop_ 版本号]Settings\`
 
-macOS: `//Users/[用户名]/Library/Preferences/[Photoshop_版本号]Settings/`
+macOS: `//Users/[用户名]/Library/Preferences/[Photoshop_ 版本号]Settings/`
 
 在以上对应的目录下创建一个名为`PSUserConfig.txt`的文本文件，然后在该文本文件中填入以下内容：
 
@@ -29,13 +29,13 @@ GPUForce 1
 
 *注意：此情况可能是个例。*
 
-在D盘根目录下出现了一个名字为`program`没有扩展名的空文件，将其删除掉问题就解决了。
+在 D 盘根目录下出现了一个名字为`program`没有扩展名的空文件，将其删除掉问题就解决了。
 
-我的PS安装在`D:\Program Files (x86)\Adobe\Adobe Photoshop CS6 (64 Bit)`，暂存盘设置在E盘。使用了大半年一直没有出过问题。
+我的 PS 安装在`D:\Program Files (x86)\Adobe\Adobe Photoshop CS6 (64 Bit)`，暂存盘设置在 E 盘。使用了大半年一直没有出过问题。
 
-今天又出现了同样的问题，一看program空文件又出现了，删除之后PS正常。这个空文件似乎是我这两天玩战争雷霆才出现的。
+今天又出现了同样的问题，一看 program 空文件又出现了，删除之后 PS 正常。这个空文件似乎是我这两天玩战争雷霆才出现的。
 
-后面我自己在D盘根目录下新建了名字为program的空文件，重启PS，PS就检测不到显卡；删除program空文件，重启PS，PS立马变正常。
+后面我自己在 D 盘根目录下新建了名字为 program 的空文件，重启 PS，PS 就检测不到显卡；删除 program 空文件，重启 PS，PS 立马变正常。
 
 用别的名字的空文件完全没有影响。
 
