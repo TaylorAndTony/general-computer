@@ -11,6 +11,7 @@
 	* [无限期推迟 Windows 自动更新](pages/advance/delay_update.md)
 	* [PPT 导出高清图片](pages/advance/ppt_image.md)
 	* [Photoshop 无法检测 GPU](pages/advance/ps_gpu.md)
+	* [中英文混排时加空格](pages/advance/spaces.md)
 * 算法
     * [Dijkstra](pages/algo/dijkstra.md)
     * [Floyd](pages/algo/floyd.md)
