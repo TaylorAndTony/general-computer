@@ -4,6 +4,7 @@
     * [如何整理电脑上的文件](pages/basic/manage_files.md)
     * [常见快捷键与操作思路](pages/basic/shortcut.md)
     * [关于 PDF 和 Word 的那些事](pages/basic/pdf.md)
+    * [先写再排版，还是边写边排版](pages/basic/typesetting.md)
 * 高级教程
 	* [关于休眠与睡眠](pages/advance/sleep.md)
 	* [关闭 Win 11 快速启动](pages/advance/faststartup.md)
@@ -13,6 +14,7 @@
 	* [Photoshop 无法检测 GPU](pages/advance/ps_gpu.md)
 	* [中英文混排时加空格](pages/advance/spaces.md)
 * 算法
+    * [手做算法题技巧](pages/algo/cheat.md)
     * [Dijkstra](pages/algo/dijkstra.md)
     * [Floyd](pages/algo/floyd.md)
     * [手动求关键路径](pages/algo/aoe.md)
