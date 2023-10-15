@@ -15,6 +15,7 @@
 	* [中英文混排时加空格](pages/advance/spaces.md)
 * 算法
     * [手做算法题技巧](pages/algo/cheat.md)
+    * [平衡二叉树](pages/algo/avl.md)
     * [Dijkstra](pages/algo/dijkstra.md)
     * [Floyd](pages/algo/floyd.md)
     * [手动求关键路径](pages/algo/aoe.md)
