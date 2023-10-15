@@ -5,6 +5,7 @@
     * [常见快捷键与操作思路](pages/basic/shortcut.md)
     * [关于 PDF 和 Word 的那些事](pages/basic/pdf.md)
     * [先写再排版，还是边写边排版](pages/basic/typesetting.md)
+    * [关于硬盘的容量](pages/basic/disk_capacity.md)
 * 高级教程
 	* [关于休眠与睡眠](pages/advance/sleep.md)
 	* [关闭 Win 11 快速启动](pages/advance/faststartup.md)
