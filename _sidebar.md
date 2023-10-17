@@ -21,3 +21,4 @@
     * [Dijkstra](pages/algo/dijkstra.md)
     * [Floyd](pages/algo/floyd.md)
     * [手动求关键路径](pages/algo/aoe.md)
+    * [B 树](pages/algo/btree.md)
