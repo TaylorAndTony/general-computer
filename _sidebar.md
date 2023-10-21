@@ -24,3 +24,4 @@
     * [B 树](pages/algo/btree.md)
 * 通用技能
     * [光速入门 C++](pages/skill/cpp.md)
+    * [光速入门 STL](pages/skill/stl.md)
