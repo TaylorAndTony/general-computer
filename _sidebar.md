@@ -22,3 +22,5 @@
     * [Floyd](pages/algo/floyd.md)
     * [手动求关键路径](pages/algo/aoe.md)
     * [B 树](pages/algo/btree.md)
+* 通用技能
+    * [光速入门 C++](pages/skill/cpp.md)
