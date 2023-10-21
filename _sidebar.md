@@ -4,6 +4,7 @@
     * [如何整理电脑上的文件](pages/basic/manage_files.md)
     * [常见快捷键与操作思路](pages/basic/shortcut.md)
     * [关于 PDF 和 Word 的那些事](pages/basic/pdf.md)
+	* [中英文混排时加空格](pages/advance/spaces.md)
     * [先写再排版，还是边写边排版](pages/basic/typesetting.md)
     * [关于硬盘的容量](pages/basic/disk_capacity.md)
     * [普通人要不要学编程](pages/basic/learn_program.md)
@@ -14,7 +15,6 @@
 	* [无限期推迟 Windows 自动更新](pages/advance/delay_update.md)
 	* [PPT 导出高清图片](pages/advance/ppt_image.md)
 	* [Photoshop 无法检测 GPU](pages/advance/ps_gpu.md)
-	* [中英文混排时加空格](pages/advance/spaces.md)
 * 算法
     * [手做算法题技巧](pages/algo/cheat.md)
     * [平衡二叉树](pages/algo/avl.md)
