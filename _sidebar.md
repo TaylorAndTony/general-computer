@@ -15,6 +15,8 @@
 	* [无限期推迟 Windows 自动更新](pages/advance/delay_update.md)
 	* [PPT 导出高清图片](pages/advance/ppt_image.md)
 	* [Photoshop 无法检测 GPU](pages/advance/ps_gpu.md)
+* 手机/安卓教程
+	* [李跳跳规则详细配置](pages/phone/litiaotiao.md)
 * 算法
     * [手做算法题技巧](pages/algo/cheat.md)
     * [平衡二叉树](pages/algo/avl.md)
