@@ -11,9 +11,11 @@
 * 高级教程
 	* [关于休眠与睡眠](pages/advance/sleep.md)
 	* [关闭 Win 11 快速启动](pages/advance/faststartup.md)
+	* [激活 Windows 和 Office](pages/advance/activate.md)
 	* [BitLocker 之你需要知道的](pages/advance/bitlocker.md)
 	* [无限期推迟 Windows 自动更新](pages/advance/delay_update.md)
 	* [PPT 导出高清图片](pages/advance/ppt_image.md)
+	* [PPT 导出所有文本框](pages/advance/ppt_text.md)
 	* [Photoshop 无法检测 GPU](pages/advance/ps_gpu.md)
 * 手机/安卓教程
 	* [李跳跳规则详细配置](pages/phone/litiaotiao.md)
