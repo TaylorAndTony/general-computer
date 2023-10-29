@@ -23,6 +23,7 @@
 	* [李跳跳规则详细配置](pages/phone/litiaotiao.md)
 * 算法
     * [手做算法题技巧](pages/algo/cheat.md)
+    * [手敲代码算法实录](pages/algo/algo_code.md)
     * [平衡二叉树](pages/algo/avl.md)
     * [Dijkstra](pages/algo/dijkstra.md)
     * [Floyd](pages/algo/floyd.md)
