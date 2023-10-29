@@ -9,14 +9,16 @@
     * [关于硬盘的容量](pages/basic/disk_capacity.md)
     * [普通人要不要学编程](pages/basic/learn_program.md)
 * 高级教程
+	* [PPT 导出高清图片](pages/advance/ppt_image.md)
+	* [PPT 导出所有文本框](pages/advance/ppt_text.md)
+	* [Photoshop 无法检测 GPU](pages/advance/ps_gpu.md)
+* 高级 Windows 设置
 	* [关于休眠与睡眠](pages/advance/sleep.md)
 	* [关闭 Win 11 快速启动](pages/advance/faststartup.md)
 	* [激活 Windows 和 Office](pages/advance/activate.md)
 	* [BitLocker 之你需要知道的](pages/advance/bitlocker.md)
 	* [无限期推迟 Windows 自动更新](pages/advance/delay_update.md)
-	* [PPT 导出高清图片](pages/advance/ppt_image.md)
-	* [PPT 导出所有文本框](pages/advance/ppt_text.md)
-	* [Photoshop 无法检测 GPU](pages/advance/ps_gpu.md)
+	* [Edge 浏览器视频发灰](pages/advance/edge_video_gray.md)
 * 手机/安卓教程
 	* [李跳跳规则详细配置](pages/phone/litiaotiao.md)
 * 算法
