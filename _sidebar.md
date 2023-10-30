@@ -13,6 +13,7 @@
 	* [PPT 导出高清图片](pages/advance/ppt_image.md)
 	* [PPT 导出所有文本框](pages/advance/ppt_text.md)
 	* [Photoshop 无法检测 GPU](pages/advance/ps_gpu.md)
+	* [一文看懂 Linux 发展历史](pages/advance/linux_history.md)
 * 高级 Windows 设置
 	* [关于休眠与睡眠](pages/advance/sleep.md)
 	* [关闭 Win 11 快速启动](pages/advance/faststartup.md)
