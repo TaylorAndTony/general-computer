@@ -84,3 +84,44 @@ Ubuntu 名称来源于非洲南部祖鲁语的“ubuntu”一词(译为吾帮托
 RHEL(Red Hat Enterprise Linux)：RHEL 是面向企业客户的 Linux 发行版，是一款收费的操作系统。它支持虚拟化技术、多核处理等；安全性高，稳定可靠。
 
 CentOS（Community ENTerprise Operating System），中文称作社区企业操作系统。它是一款企业级 Linux 发行版，是使用红帽 Linux 中的免费源代码重新构建而成。CentOS 是免费的、开源的、可以重新分发的开源操作系统。CentOS 人群数量大，资料非常多；包管理方式采用基于 RPM 包的 YUM 包管理方式，包分发方式是编译好的二进制文件；CentOS 稳定性非常好，适合于搭建公司服务器使用。
+
+## BSD 与 Linux
+
+> BSD is what you get when a bunch of UNIX hackers sit down to try to port a UNIX system to the PC. Linux is what you get when a bunch of PC hackers sit down and try to write a UNIX system for the PC.
+> 
+> BSD 是黑客们试图将 Unix 移植到电脑上出现的，而 Linux 则是黑客们尝试在电脑上写一个 Unix。
+
+
+> Linux 他们做的事是因为他们讨厌微软，我们所做的事情是因为我们热爱 Unix。
+>
+> —— OpenBSD 创始人 Theo de Raadt
+
+BSD（Berkeley Software Distribution，也称 Berkeley Unix），作为 Unix 最绕不开的一族分支，它的摇篮是当时美国最为激进的左派大本营 —— 加州大学伯克利分校。在这个以自由著称的学校，老学长 Ken Thompson 创造并带回了 Unix，小学弟 Bill Joy 接力发展了 BSD，经过更多校内校外参与者的一起努力，才从一场浩劫中保下了这一不同于 GNU/Linux 一派的“开源火种”。
+
+1977 年开始，AT&T 分解后终于摆脱反垄断的掣肘，立马将 Unix 进行商业化。从 1979 年 UNIX 的 V7 版本开始，Unix 的许可证开始禁止大学使用 Unix 源码，包括在授课中学习。如果想要继续使用，就要支付价格不菲的费用得到授权。
+
+至此，UNIX 开始分为两大流派： AT&T 一路的商业化版本 Unix 和 BSD 系列（其中前者是闭源的，而 BSD 是开放源代码的）。这种格局在 1990 年代初期达到极盛，各路 Unix 版本达到了 100 多种，其中包括 SUNOS、IBM AIX、HP-UX、DEC Ultrix 与 SCO Xenix、Sun Solaris 等。这些 Unix 变种均基于 Unix 开源版本派生而来，且多为闭源的商业版。
+
+90 年代初期，BSDi（伯克利计算机研究小组 CSRG 成立的公司）开始销售其自己的 Berkeley Unix 版本，而加州大学多年来一直在销售其版本。1992 年，AT&T 起诉加州大学和 BSDi，声称 BSD Unix 包含专有的 AT&T 代码。但实际上，AT&T 当时推出的 Unix 版本 System 5 也包含了最初由 BSD 黑客编写的大量代码 —— 包括 TCP/IP 堆栈。
+
+于是，像 McKusick 这样的黑客被激怒了。加州大学的律师抓住了这一机会，以侵犯版权为由向 AT&T 提出反诉。一场浩浩荡荡、留名史册的版权战争就此拉开序幕。众多支持开源的工程师们把自己形象的比喻为《星球大战》中的自由反抗军联盟，对抗邪恶的垄断帝国。在后来，不少历史学者都将伯克利黑客描述为“自由斗士”。就像后人的评判那样：他们中没有一个人将自己视为十字军，但时不时会渗出一丝理想主义。
+
+就当 BSD 深陷泥淖之中时，开源世界众所周知的另一个故事也正在发生：1984 年，RMS 打出“GNU's not Unix” 的标语，发起自由软件（Free Software）运动；1991年，Linux 诞生，开源世界里的最大宇宙 —— GNU/Linux 话语体系就此形成。接下来，Linux 发展，而 BSD 让出了 C 位。
+
+Linus 起初还是个芬兰大学生，因为买不起工作站，只好自己写了一个能在 386 上运行的操作系统。而如果他要是早知道 BSD 没有法律问题，并且可以被移植到 386，他就会加入 BSD 的开发，而不是自己写一个。（真有意思，这场官司还改变了 Linus 的命运。）
+
+Linux 和 BSD 都是类 UNIX 操作系统。我们可以通过阅读类 UNIX 操作系统历史发现 Linux 和 BSD 有不同的谱系。
+
+Linux 是由 Linus Torvalds 在芬兰上大学的时候开发的。
+
+BSD 则代表“Berkeley Software Distribution，伯克利软件套件”，其源于对加州大学伯克利分校所开发的贝尔实验室 UNIX 的一系列修改，它最终发展成一个完整的操作系统，现在有多个不同的BSD分支。
+
+严格的说，Linux 是只是一个内核。制作 Linux 发行版所要做的工作就是，汇集那些创建一个完整 Linux 操作系统所需的所有软件，将它组合成一个像 Ubuntu、Mint、Debian、RedHat 或者是 Arch 这样的 Linux 发行版。有许多不同的 Linux 发行版。
+
+与此相反的是，BSD 这个名字则代表其内核和操作系统。例如，FreeBSD 提供了 FreeBSD 内核和 FreeBSD 操作系统。它是作为一个单一的项目维护的。换句话说，如果你想要安装 FreeBSD，就只有一个 FreeBSD 可供你安装。如果你想要安装 Linux，你首先需要在许多 Linux 发行版之间选择。
+
+许可证是典型的差异，虽然它不会对大多数人产生影响。Linux 使用 GNU 通用公共许可证，即 GPL。如果你修改了 Linux 内核，并将其分发，你就必须放出您的修改的源代码。
+
+BSD 使用 BSD 许可证。如果你修改了 BSD 内核或发行版，并且发布它，你根本不需要必须发布其源代码。你可以自由地对你的 BSD 代码做任何你想做的事情，你没有义务发布的你修改的源代码，当然你想发布也行。
+
+两者都是开放源码的，但是以不同的方式。人们有时会陷入关于哪种许可证是“更自由”的辩论。GPL 可以帮助用户以确保他们可以拥有 GPL 软件的源代码，并限制开发人员迫使他们开放代码。BSD 许可证并不能确保用户可以拥有源代码，而是给开发人员选择是否公布代码的权利，即使他们想要把它变成一个闭源项目。
