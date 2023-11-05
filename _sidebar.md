@@ -31,6 +31,8 @@
     * [Floyd](pages/algo/floyd.md)
     * [手动求关键路径](pages/algo/aoe.md)
     * [B 树](pages/algo/btree.md)
+    * [动态分配：堆](pages/algo/heap.md)
+    * [应用程序分段](pages/algo/segments.md)
 * 通用技能
     * [光速入门 C++](pages/skill/cpp.md)
     * [光速入门 STL](pages/skill/stl.md)
