@@ -4,6 +4,10 @@
 
 压缩包是一种将多个文件或者文件夹打包成一个文件的方式，以便于存储和传输。它通过压缩算法将文件的大小进行压缩，从而减少存储空间和传输时间。它还可以让零散的文件变成一个整体。
 
+<font color="red">下面的视频步骤较为繁琐，推荐在看完此文章看不懂的情况下来查看。</font>
+
+<iframe src="//player.bilibili.com/player.html?aid=385091844&bvid=BV1xZ4y1v7pU&cid=771074899&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height:500px"> </iframe>
+
 ## 压缩包常识
 
 压缩包，在日常生活中出现概率无限趋近 100%，是每个人都要会处理的数据格式。
@@ -30,6 +34,8 @@
 
 其解压方法同上，**只需选择第一个文件，右键点击「解压到 xxx (E)」即可**。但需要注意：压缩包数量必须是齐全的，否则会解压错误。
 
+<iframe src="//player.bilibili.com/player.html?aid=378563761&bvid=BV1Zf4y1u7rv&cid=423359977&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height:500px"> </iframe>
+
 ## 软件下载
 
 如果没有看到类似的选项，说明你的**电脑没有安装压缩软件**，请前往以下广泛使用的压缩软件官网进行下载：
@@ -37,4 +43,4 @@
 - [Bandizip，适合国人使用的简单压缩软件](https://www.bandisoft.com/bandizip/)
 - [Win RAR，老牌强大压缩软件](https://www.win-rar.com/start.html?&L=0)
 
-![why you do not want to learn unzip](https://z1.ax1x.com/2023/09/30/pPqRN6J.jpg)
+<img src="https://z1.ax1x.com/2023/09/30/pPqRN6J.jpg" style="width:70%;max-width:800px">
