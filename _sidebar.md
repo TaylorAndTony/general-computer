@@ -38,3 +38,4 @@
     * [光速入门 C++](pages/skill/cpp.md)
     * [光速入门 STL](pages/skill/stl.md)
     * [光速入门 Java](pages/skill/java.md)
+    * [VS Code 配置 Vim](pages/skill/codevim.md)
