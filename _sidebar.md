@@ -34,6 +34,7 @@
     * [各种树都是什么东西](pages/algo/all_kinds_of_trees.md)
     * [动态分配：堆](pages/algo/heap.md)
     * [应用程序分段](pages/algo/segments.md)
+    * [银行家算法](pages/algo/bank_algo.md)
 * 通用技能
     * [光速入门 C++](pages/skill/cpp.md)
     * [光速入门 STL](pages/skill/stl.md)
