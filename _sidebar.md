@@ -40,3 +40,5 @@
     * [光速入门 STL](pages/skill/stl.md)
     * [光速入门 Java](pages/skill/java.md)
     * [VS Code 配置 Vim](pages/skill/codevim.md)
+* 分享类
+    * [YTU 评教自动化脚本](pages/share/ytu_pingjiao.md)
