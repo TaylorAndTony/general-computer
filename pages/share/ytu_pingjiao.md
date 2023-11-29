@@ -104,13 +104,13 @@ function autoClickAndSubmit() {
     log('使用\nunsafeWindow.autoSubmitResult = false;\n关闭自动提交')
     // remember the window title
     const title = document.title;
-    let t = setInterval(function () {
+    let t = setInterval(function () { 
         log(`剩余时间：${unsafeWindow.maxtime}`);
         document.title = `${title} (${unsafeWindow.maxtime})`;
         if (unsafeWindow.maxtime > 0) {
             return;
         }
-        log('3 秒后自动提交！')
+        log('5 秒后自动提交！')
         setTimeout(() => {
             if (unsafeWindow.autoSubmitResult) {
                 submit.click();
@@ -119,7 +119,7 @@ function autoClickAndSubmit() {
                 console.log(unsafeWindow.autoSubmitResult);
                 log('已取消自动提交！调试值：' + unsafeWindow.autoSubmitResult);
             }
-        }, 3000);
+        }, 5000);
         clearInterval(t);
     }, 1000)
 }
@@ -138,6 +138,16 @@ function openLatestNotEvaluatedCourse() {
     }
 }
 
+
+function autoOpenFirst() {
+    let buttons = document.querySelectorAll('button.btn-purple');
+    if (buttons.length > 0) {
+        buttons[0].click();
+        log(`已自动打开第一个未评教课程(剩余${buttons.length})`);
+    }
+}
+
+
 (function autoFunctionDispatcher() {
     // avoid run many times
     unsafeWindow.hasAlreadyRun = undefined;
@@ -147,6 +157,7 @@ function openLatestNotEvaluatedCourse() {
             return;
         }
         unsafeWindow.hasAlreadyRun = true;
+        autoOpenFirst();
         autoClickAndSubmit();
     }, 1000);
     GM_registerMenuCommand('⭕ 重新评价', autoClickAndSubmit)
