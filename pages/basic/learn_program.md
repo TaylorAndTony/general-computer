@@ -23,9 +23,9 @@
 
 ### 没必要学习的情况
 
-如果除开工作、学习、娱乐，电脑对你来说是可有可无的——电脑唯一的作用便是偶尔写文档和表格，当有人发来文档时，我就打开电脑，编辑完，就不再用了。那么，**不建议学**。编程语言的主力战场是电脑、笔记本，而不是手机。
+如果除开工作、学习、娱乐，电脑对你来说是可有可无的——电脑唯一的作用便是偶尔写文档和表格，当有人发来文档时，我就打开电脑，编辑完，就不再用了。那么，**不建议学**。编程语言的主力战场是电脑、笔记本，而不是手机，学习编程可能对你的帮助很有限。
 
-如果你是狂热游戏玩家，每天都在游戏中度过，那么依然**不建议学**。游戏的世界已经足够广阔，没必要难为自己。尽管学习编程语言不难，但也要投入时间。
+如果你是狂热游戏玩家，每天都在游戏中度过，那么依然**不建议学**。游戏的世界已经足够广阔，没必要难为自己。尽管学习编程语言不难，但也要投入时间，不如把这些花在你更喜欢的事情上。
 
 ### 比较复杂的情况
 
@@ -34,26 +34,17 @@
 分为两部分：
 
 1. 已经熟悉电脑基本操作和概念，能够用 Word 完成日常任务的人。
-2. 不熟悉电脑基础操作，进入职场 = 刚用电脑的人。
+2. 不熟悉电脑基础操作，刚接触、会用电脑的人。
 
-对于 1，**可以学，但不是必须学**。如果你有额外的精力，能够投入时间，那么学习编程语言会对你带来很大的收益。具体选择哪一门是很关键的——非计算机专业人士，没必要掌握过于专业的技能。这部分会在下文谈到。学会一门编程语言，你可以自己开发各类使用小工具，面对各种复杂需求，你甚至可以几分钟搞定。
+对于 1，**推荐学，但不是必须学**。如果你有额外的精力，能够投入时间，那么学习编程语言会对你带来很大的收益。具体选择哪一门是很关键的——非计算机专业人士，没必要掌握过于专业的技能。这部分会在下文谈到。学会一门编程语言，你可以自己开发各类使用小工具，面对各种复杂需求，你甚至可以几分钟搞定。典型场景如批量重命名、整理照片、格式转换等，这些任务将不再复杂。
 
-对于 2，**不建议学**。编程语言中有大量的计算机基础知识。比如，**路径**，实际的程序会大量处理路径。下面是一个小测试。
-
-> 对于文件 `D:\files\人员名单` 的说法，正确的是
->
-> A. 可以确定 D 盘有一个名为 files 的文件
-> B. “人员名单”是一个文档
-> C. 这是相对路径格式
-> D. 把“人员名单”移动到上一级目录，可得 `D:\人员名单`
-
-如果你不能立即反应出 A B C 都是错的，那么不建议学编程语言。
+对于 2，**不建议学**。编程语言中有大量的计算机基础知识，这些基础与编程语言是无关的，是通用的。首先建议学习一些计算机的基础操作，比如，尽管计算机二级没有含金量，但其操作是工作中会使用到的，可以按照计算机二级的内容来补充一波自己的计算机基础（如打字、切换中英文、移动复制文件、打开 U 盘、新建文件等基础操作）。
 
 ## 选什么编程语言
 
-我听过有人说可以选择经典的 C 语言，毕竟是全国大学入门计算机的第一门编程语言。但问题是，**我们没必要要求自己学习线性表、栈、队列**等专业知识，我们只是为了**自动化现有的流程**——这是普通人学习编程语言的最大好处。
+我听过有人说可以选择经典的 C 语言，毕竟是全国大学入门计算机的第一门编程语言。但问题是，**我们没必要要求自己学习线性表、栈、队列**等专业知识，我们只是为了**自动化现有的流程，为自己省力**——这是普通人学习编程语言的最大好处。
 
-因此，**Python** 是非常优秀的选择。它有丰富的库和很简单的安装方法，你可以快速把自己的想法付诸实践。
+**Python** 是非常优秀的选择。不是因为它很火，也不是因为它的教程很多，而是它有丰富的第三方库，和很简单的安装方法，你可以快速把自己的想法付诸实践。由于它拥有巨大的生态，大量的功能并不需要你自己去完成，也不需要你理解如何工作，只需要跟着文档的说法，用就完了。
 
 比如，我想要批量地把 `doc` 转成 `PDF` 格式，Python 实现如下（体会复杂性即可，无需理解代码）
 
@@ -61,64 +52,11 @@
 # 复制并命令行运行：pip install python-office -U
 import office 
 
-path = 'C:/app/workbook'  # path这里，填写你存放word文件的位置，例如：C:/app/workbook
+# path这里，填写你存放word文件的位置，例如：C:/app/workbook
+path = 'C:/app/workbook' 
 office.word.docx2pdf(path=path) # 转换完成
 ```
 
-如果选择经典的 C 语言，实现难度过大，代码过长，下面是 C 的“扩展版”语言 C++ 的实现：
+简单入门后，我并不需要理解 `docx2pdf` 是如何工作的，我只需要知道这个函数能够把一个 doc 文档转换成 PDF 就足够了。结合学习 Python 基础时掌握的的循环、遍历、存储文件等知识，我便可以批量转换这类文档，解放生产力。Python 在学习过程中还会不断给你正反馈，让你明确感觉到自己的进步，不断丰富自己的信心。它不会打击你，不会像 C++ 那样时不时让你感觉自己是个菜鸡。
 
-```cpp
-#pragma   warning(disable:4786) 
-#import  "C:\Program Files\Common Files\Microsoft Shared\Office12\mso.dll" \
-rename("RGB","_OfficeRGB")         
-#import  "C:\Program Files\Common Files\Microsoft Shared\VBA\VBA6\VBE6EXT.OLB" \
-    rename("Reference", "ignorethis")
-#import   "C:\Program Files\Microsoft Office\Office12\msword.olb " \
-    rename("FindText","_FindText")\
-    rename("Rectangle","_Rectangle")\
-    rename("ExitWindows","_ExitWindows")
-#import   "C:\Program Files\Microsoft Office\Office12\MSPPT.OLB"
-#import "c:\Program Files\Microsoft Office\Office12\EXCEL.exe" \
-    rename("DialogBox","_DialogBox") \
-    rename("RGB","_RGB") \
-    exclude("IFont","IPicture")
-#include <string>
-#include <iostream>
-
-int Word2PDF(std::wstring inputFileName,std::wstring outputFileName)  
-{
-    int nR = 0;
-    Word::_ApplicationPtr   pWordApp   =   NULL; 
-    Word::_DocumentPtr   pDoc   =   NULL; 
-    HRESULT hr;
-    BSTR szBstrOutputFileName;
-
-    szBstrOutputFileName=SysAllocString(outputFileName.c_str());    
-    hr = pWordApp.CreateInstance(__uuidof(Word::Application)); 
-    if(hr!=S_OK) return 1;
-    Word::DocumentsPtr   pDocs   =   NULL; 
-    pWordApp-> get_Documents(&pDocs);
-    if(pDocs==NULL)  nR = 2; goto _RELEASE_APP;
-    try
-    {
-        pDoc = pDocs->Open(&(_variant_t(inputFileName.c_str()))); 
-        if(pDoc==NULL) goto _RELEASE_APP;
-        pDoc->ExportAsFixedFormat(szBstrOutputFileName,Word::WdExportFormat::wdExportFormatPDF,VARIANT_FALSE,
-            Word::WdExportOptimizeFor::wdExportOptimizeForPrint,Word::WdExportRange::wdExportAllDocument,1,1,
-            Word::WdExportItem::wdExportDocumentContent,VARIANT_TRUE,VARIANT_TRUE,
-            Word::WdExportCreateBookmarks::wdExportCreateNoBookmarks,VARIANT_TRUE,VARIANT_TRUE,VARIANT_FALSE);
-        pDoc-> Close(); 
-        pDoc.Release(); 
-        pDoc = NULL; 
-    }catch(...)
-    {
-        nR = 3;
-    }
-
-_RELEASE_APP:
-    pWordApp-> Quit(); 
-    pWordApp.Release(); 
-    pWordApp = NULL; 
-    return nR;
-}
-```
+Python 的确有很多缺点，如速度不如 C/C++，语法较少，不能玩花活，但在普通使用的环境下，它的优点是远大于缺点的。
