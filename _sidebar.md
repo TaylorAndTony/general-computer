@@ -9,6 +9,7 @@
     * [关于硬盘的容量](pages/basic/disk_capacity.md)
     * [普通人要不要学编程](pages/basic/learn_program.md)
     * [中国传统单位换算关系](pages/basic/cn_unit.md)
+    * [Word 迷幻操作](pages/basic/word_weird.md)
 * 高级教程
 	* [PPT 导出高清图片](pages/advance/ppt_image.md)
 	* [PPT 导出所有文本框](pages/advance/ppt_text.md)
