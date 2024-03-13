@@ -7,7 +7,6 @@
 	* [中英文混排时加空格](pages/advance/spaces.md)
     * [先写再排版，还是边写边排版](pages/basic/typesetting.md)
     * [关于硬盘的容量](pages/basic/disk_capacity.md)
-    * [普通人要不要学编程](pages/basic/learn_program.md)
     * [中国传统单位换算关系](pages/basic/cn_unit.md)
     * [Word 迷幻操作](pages/basic/word_weird.md)
 * 高级教程
